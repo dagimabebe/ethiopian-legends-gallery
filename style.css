@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    overflow: hidden; 
+    background-color: #0f0f0f; 
+    font-family: 'Arial', sans-serif;
+}
+
+
+.gallery-info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 350px;
+    z-index: 100;
+    border-left: 4px solid #ffcc00; 
+}
+
+.gallery-info h1 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #ffcc00;
+}
+
+.gallery-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+canvas {
+    display: block; 
+}
